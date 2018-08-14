@@ -4,7 +4,7 @@ def prime?(int)
     return true
   else
     for div in (3..(int/2 - 0.5))
-      if int/div==0
+      if int%div==0
         return true
       end
     end
