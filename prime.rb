@@ -8,6 +8,10 @@ def prime?(int)
     return true
   end
   
+  if int == 1
+    return false
+  end
+  
   for div in (2..int)
       if int%div==0 and div != int
         return false
