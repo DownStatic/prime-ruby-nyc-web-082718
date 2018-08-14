@@ -1,5 +1,9 @@
 # Add  code here!
 def prime?(int)
+  if int < 0
+    int = -1*int
+  end
+  
   if int%2==0 and int!=0
     return true
   end
