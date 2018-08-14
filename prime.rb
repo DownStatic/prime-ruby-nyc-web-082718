@@ -5,7 +5,7 @@ def prime?(int)
   end
   
   for div in (2..int)
-      if int%div==0
+      if int%div==0 and div != int
         return false
       end
     end
