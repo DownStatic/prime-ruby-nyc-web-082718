@@ -4,7 +4,7 @@ def prime?(int)
     int = -1*int
   end
   
-  if int%2==0 and int!=0
+  if int%2==0 and int!=0 and int!=1
     return true
   end
   
