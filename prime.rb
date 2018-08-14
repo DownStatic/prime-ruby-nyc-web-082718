@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(int)
-  if int%2==0
+  if int%2==0 and int 
     return true
   end
   for div in (2..int)
